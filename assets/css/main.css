@@ -1,9 +1,5 @@
 html {
-    font-size: 20px;
-}
-
-body {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 body {
@@ -29,6 +25,7 @@ main {
 a {
     color: black;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 p {
@@ -617,6 +614,11 @@ input::placeholder, textarea::placeholder {
 
 #mainSection4 .member-wrapper {
     padding-top: 1rem;
+    font-size: 1rem;
+}
+
+#mainSection4 .member-wrapper p {
+    display: inline-block;
 }
 
 #mainSection4 .member-wrapper .relation {
